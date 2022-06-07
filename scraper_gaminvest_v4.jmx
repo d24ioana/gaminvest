@@ -316,6 +316,7 @@ city = city.replaceAll(&apos;Bucuresti&apos;,&apos;București&apos;);
 city = city.replaceAll(&apos;Zalau&apos;,&apos;Zalău&apos;);
 city = city.replaceAll(&apos;Constanta&apos;,&apos;Constanța&apos;);
 city = city.replaceAll(&apos;Focsani&apos;,&apos;Focșani&apos;);
+city = city.replaceAll(&apos;Timisoara&apos;,&apos;Timișoara&apos;);
 var country = vars.get(&quot;country&quot;);
 if (city == &apos;Belgia&apos;){ //.contains(&apos;Belgia&apos;)== true
 	country = &apos;Belgia&apos;; //country = country.replaceAll(&apos;România&apos;,&apos;Belgia&apos;);
