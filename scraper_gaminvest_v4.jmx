@@ -321,7 +321,7 @@ var country = vars.get(&quot;country&quot;);
 if (city == &apos;Belgia&apos;){ //.contains(&apos;Belgia&apos;)== true
 	country = &apos;Belgia&apos;; //country = country.replaceAll(&apos;România&apos;,&apos;Belgia&apos;);
 	}else{
-		country = &apos;Romania&apos;;}
+		country = &apos;România&apos;;}
 
 log.info(city);
 log.info(country);
